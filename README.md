@@ -1,4 +1,4 @@
-# Abstract-Syntax-Tree-Javascript
+# Javascript Explorer using Abstract-Syntax-Tree-Javascript
 
 Generates a call graph based on Abstract Syntax tree in Javascript
 
