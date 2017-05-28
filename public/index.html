@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Javascript Explorer</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+
+    <nav class="navbar bg-primary navbar-fixed-top">
+	  <div class="row container-fluid">
+        <div class="col-md-9"><h3 class="navbar-text">Javascript Explorer</h3></div>
+        <form    class="col-md-3 navbar-right" id="uploadFile" action="/upload" enctype="multipart/form-data">
+        
+        <div class="form-group ">
+          <input id="file" type="file" name="file" class="file" style="visibility:hidden;">
+          <div class="input-group col-xs-12">
+            <input type="text" class="form-control" disabled placeholder="Upload File">
+            <span class="input-group-btn">
+              <button class="browse btn btn-success" type="button"><i class="glyphicon glyphicon-folder-open"></i></button>
+            </span>
+          </div>
+        </div>
+        </form>	  
+	  </div>
+    </nav>
+  <div class="container">
+    <div class="row">
+    <!--form id="uploadFile" action="/upload" enctype="multipart/form-data">
+
+      <div class="form-group col-md-3">
+        <input id="file" type="file" name="file" class="file" style="visibility:hidden;">
+        <div class="input-group col-xs-12">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-folder-open"></i></span>
+          <input type="text" class="form-control" disabled placeholder="Upload File">
+          <span class="input-group-btn">
+            <button class="browse btn btn-primary" type="button"><i class="glyphicon glyphicon-search"></i> Browse</button>
+          </span>
+        </div>
+      </div>
+    </form-->
+	</div>
+    <svg width="960" height="600"></svg>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <script src="js/index.js"></script>
+	<script src="js/callGraph.js"></script>
+
+  </body>
+</html>
