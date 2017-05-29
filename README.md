@@ -1,3 +1,5 @@
+# Javascript Explorer
+
 Generates a call graph for a Javascript file based on Abstract Syntax Tree.
 
 D3's Force Directed Graph is used for the call graph visualization.
