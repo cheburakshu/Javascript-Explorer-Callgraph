@@ -1,15 +1,15 @@
-const b=()=>{
-  console.log('test');
+const b = () => {
+  console.log("test");
   c();
-}
+};
 
-const a= (next)=>{
+const a = next => {
   b();
   c();
-}
+};
 
-function c(){
-  var test=1;
+function c() {
+  var test = 1;
   test++;
 }
 a(1);
